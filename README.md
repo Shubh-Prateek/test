@@ -20,4 +20,17 @@ ye global hi krrhe local v krskte agar bahut se github account ho to   aur yaha 
 d drive jaha ye folder hai  wha jaake status dekha git status aur fir clone kiya pura copy
 git clone https://github.com/Shubh-Prateek/test.git
 
+<br>
+abhi humara readme.md stage hai to koi v change krrhe to vs code M krke dikah rha
+<br>
+to basically git init se bolta ki git dekh rha is folder ke staged changes ko
+aur git add filename   ya git add . bolta sbhi staged ko dekho
+abhi itna save krke add. aur commit krdete
 
+<br>
+jabhi nayi file banao to usko staged krdo aut commit  
+
+<br> to hamne abhi ek index.html file banayi aur wo untracked aarhi uar ye wali modified
+
+<br>
+abhi agar h1 create kiya index.html m to git ko pata nhi chalega wo untracked hi bolega kyuki isko commit nhi kiya
