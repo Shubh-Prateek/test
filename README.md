@@ -34,3 +34,6 @@ jabhi nayi file banao to usko staged krdo aut commit
 
 <br>
 abhi agar h1 create kiya index.html m to git ko pata nhi chalega wo untracked hi bolega kyuki isko commit nhi kiya
+
+<br>
+git commands wale mein se command dekhlo kuch
