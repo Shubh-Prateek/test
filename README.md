@@ -37,3 +37,49 @@ abhi agar h1 create kiya index.html m to git ko pata nhi chalega wo untracked hi
 
 <br>
 git commands wale mein se command dekhlo kuch
+
+<br>
+abhi humlog direct ek folder se git init krenege taaki ek naya git repo khul sake mtlb git uspe dhyaan de changes ka
+gitdemo folder ke andar ek nayi folder bana rhe  cd .. se parent folder p aaye mtlb gitdemo p
+wha p mkdir se naaya folder banaya LocalRepo krke
+
+<br>
+to ab folder ke andar gye aur git init kiya   isse ek .git waali file bani jo ki ls -a list all file se pta chala
+usme ek naya html file banaya git add . kiya aur fir commit kiya par push krne se pehle ye krna pdega
+<br>
+hame is folder ko github p v daalna to github p naya repository banaya jaise localrepo
+readme ko nhi initialse krenge nhi to  iss folder mein v banana pdega
+<br>
+git remote add origin link  mtlb hum ek remote repo add krna chahte jiska naam origin  hai aur link jo jahagithubrepo
+<br>git remote -v se verify krte 
+<br>git branch   check krke baatate konsi branch hai
+<br>git branch -M main    to rename the branch   kyuki pehle master hua krta tha par github ne policies mein change k
+<br>git push origin main
+
+<br>
+to ye hua 
+Dell@DESKTOP-F8ELQB2 MINGW64 /d/gitdemo/LocalRepo (master)
+$ git remote add origin https://github.com/Shubh-Prateek/localrepo.git
+
+Dell@DESKTOP-F8ELQB2 MINGW64 /d/gitdemo/LocalRepo (master)
+$ git remote -v
+origin  https://github.com/Shubh-Prateek/localrepo.git (fetch)
+origin  https://github.com/Shubh-Prateek/localrepo.git (push)
+verify hogya ki shi jagah remote set
+
+<br>
+Dell@DESKTOP-F8ELQB2 MINGW64 /d/gitdemo/LocalRepo (master)
+$ git branch
+* master          bol rha  master branch
+
+Dell@DESKTOP-F8ELQB2 MINGW64 /d/gitdemo/LocalRepo (master)
+$ git branch -M main           rename kiya kyuki git ka ab main use krte master ke jagah
+
+Dell@DESKTOP-F8ELQB2 MINGW64 /d/gitdemo/LocalRepo (main)
+$ git push origin main   fir main branch mein push
+Enumerating objects: 3, done.  
+ab repo mein ye dikhayega
+<br>
+ git push -u origin main    agr baar baar same hi branch mein update kr rhe to usko upstream krke usko set krdiya 
+ taaki agla push usi mein jaaye
+ 
